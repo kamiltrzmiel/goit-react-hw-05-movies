@@ -22,7 +22,7 @@ const MovieDetails = () => {
   return (
     <main>
       <button className={css.backButton}>
-        <Link to={backLink}>Go back to the list of searched movies</Link>
+        <Link to={backLink}>Go back</Link>
       </button>
       <div className={css.wrapper}>
         {movieDetails && (
