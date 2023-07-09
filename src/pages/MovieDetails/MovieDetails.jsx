@@ -21,9 +21,8 @@ const MovieDetails = () => {
 
   return (
     <main>
-      <button className={css.backButton}>
-        <Link to={backLink}>Go back</Link>
-      </button>
+      <Link to={backLink}>Go back
+      </Link>
       <div className={css.wrapper}>
         {movieDetails && (
           <div className={css.container}>
